@@ -1,0 +1,7 @@
+- name: Install Packages
+  dnf:
+    name: 
+      - htop
+      - mc
+      - tmux
+
