@@ -1,8 +1,0 @@
-- hosts: rhel85m01.master
-  connection: local
-  become: true
-
-  tasks:
-  - name: Install htop
-    dnf:
-      name: htop
