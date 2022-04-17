@@ -2,5 +2,5 @@
   cron:
     user: ansiblepull
     name: "ansible provision"
-    minute: "*/5"
+    minute: "*/1"
     job: "~/.local/bin/ansible-pull -o -U https://github.com/Sweetmine/ansible_pull.git > /dev/null"
